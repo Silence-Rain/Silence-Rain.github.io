@@ -1,0 +1,28 @@
+title: 'Silence心雨'
+intro: this is
+nick: Silence
+sign: 来喝完这杯，还有三杯
+
+nav:
+  - title: 首页 Index
+    links:
+      - name: 首页
+        link: ''
+  - title: 归档 Archive
+    links:
+      - name: '2019'
+        link: '2019/09-14'
+      - name: '2018'
+        link: '2018/09-13'
+      - name: '2017'
+        link: '2017/09-15'
+  - title: 小玩具 Playground
+    links:
+      - name: '宝石迷阵Bejeweled(维护ing)'
+        link: '' 
+        disabled: true
+  - title: 关于 About
+    links: 
+      - name: 关于
+        link: 'about'
+
