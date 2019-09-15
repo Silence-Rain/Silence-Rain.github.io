@@ -6,8 +6,8 @@ marked.setOptions({
 Vue.component('page', {
   template: `
     <div class='page'>
-      <audio class="player" controls="controls" loop v-if='page.length'>
-        <source src="http://mobileoc.music.tc.qq.com/M5000012Ez0a1tFcOI.mp3?vkey=D4A341F21B0A549965483854825ED4DF868DF468B45661272922C9695D56997B08155B8B0495C76FA08D05FE27459931E39A941FF87D5D1B&guid=480517550&uin=0&fromtag=38" type="audio/mp3">
+      <audio class="player" controls="controls" loop autoplay>
+        <source src="data/qilixiang.mp3" type="audio/mp3">
       </audio>
       <div class='item' :class='"item-" + item.type' v-if='page' v-for='item in page'>
         <div v-if='item.type === "markdown"' v-html='item.content'></div>
@@ -64,6 +64,9 @@ stylr(`
 
     .player
       margin-top 25px
+
+    audio
+      outline none
 
     .item
       padding 10px 0
