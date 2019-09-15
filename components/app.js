@@ -23,7 +23,7 @@ stylr(`
     --divider-color #edebf0
 
   *
-    font-family "Montserrat", "Roboto", "Source Sans Pro", "Helvetica", "Arial", "Lora", "source-han-sans-tc", sans-serif
+    font-family "Montserrat", "Open Sans", "Helvetica", "Arial", "source-han-sans-tc", sans-serif
     line-height 1.75em
     font-size 14px
     -webkit-text-size-adjust 100%
