@@ -11,6 +11,14 @@ Vue.component('page', {
       </audio>
       <div class='item' :class='"item-" + item.type' v-if='page' v-for='item in page'>
         <div v-if='item.type === "markdown"' v-html='item.content'></div>
+        <div v-if='item.type === "catalog"' v-for='article in item.content' @click='navigate(article.link)'>
+          <div>
+            <h2>{{ article.title }}</h2>
+            <p>{{ article.intro }}</p>
+            <p>{{ article.date }}</p>
+          </div>
+          <div v-if='article.img'><img src='article.img'></div>
+        </div>
       </div>
       <div class='item end'>
         {{ page ? page.length ? 'EOF' : '404' : 'CONNECTING..' }}
@@ -35,14 +43,25 @@ Vue.component('page', {
   },
   methods: {
     load() {
-      getFile(`data/${this.route}.md`)
-        .then((res) => {
-          this.page = [{
-            type: 'markdown',
-            content: marked(res) 
-          }]
-        })
-        .catch((e) => (this.page = []));
+      if (/^\d{4}\/catalog$/.test(this.route)) {
+        getFile(`data/${this.route.slice(0,4)}/index.json`)
+          .then((res) => {
+            this.page = [{
+              type: 'catalog',
+              content: res.content
+            }]
+          })
+          .catch((e) => (this.page = []));
+      } else {
+        getFile(`data/${this.route}.md`)
+          .then((res) => {
+            this.page = [{
+              type: 'markdown',
+              content: marked(res) 
+            }]
+          })
+          .catch((e) => (this.page = []));
+      }
     },
     navigate(dest) {
       this.$emit('routeChange', dest);
