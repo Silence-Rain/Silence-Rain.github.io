@@ -7,7 +7,7 @@ Vue.component('sidebar', {
         <p class='sign'>{{ info.sign }}</p>
         <div class='socialmedia'>
           <a class='follow-button' href='https://github.com/Silence-Rain'><i class="fa fa-github fa-lg"></i> Follow</a>
-          <a class='follow-button' href='https://instagram.com/danielmosilence'><i class="fa fa-instagram fa-lg"></i> Follow</a>
+          <a class='follow-button' href='https://linkedin.com/in/shaohuang-daniel-mo/'><i class="fa fa-linkedin "></i> Follow</a>
         </div>
       </div>
       <div class='nav'>

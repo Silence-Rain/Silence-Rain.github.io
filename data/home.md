@@ -2,9 +2,10 @@
 
 # 你好 | Welcome
 
-##### 还正在重建过程中……归档目录预计这周内完成
+##### Q: What will happen when you finish all your homework?
 
-##### Still under reconstruction... The archive catalog of previous blogs would be completed this week
+##### A: You will receive the notification of new homework
+
 
 很长时间没有动手写过东西啦，面对屏幕发呆半天都不知道该从哪里下笔
 
