@@ -1,16 +1,39 @@
 {
-	"content": [
-		{
-			"title": "Test Article 1",
-			"link": "2017/09-15",
-			"img": "https://rikumi.github.io/2019/09/18/history-of-my-oneplus-6t-1/",
-			"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-			"date": "2017-09-15"
+	"content": [{
+			"title": "JS几道算法题",
+			"link": "2018/09-13",
+			"intro": "",
+			"date": "2018-09-13"
 		}, {
-			"title": "Test Article 2",
-			"link": "2017/09-15",
-			"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-			"date": "2017-09-15"
+			"title": "Javascript里的浮点数",
+			"link": "2018/08-20",
+			"intro": "做需求的时候碰到一个之前从未注意过的小问题，在这里记录一下",
+			"date": "2018-08-20"
+		}, {
+			"title": "WebAssembly——从入门到入门",
+			"link": "2018/08-19",
+			"intro": "组内技术分享@腾讯MIG",
+			"date": "2018-08-19"
+		}, {
+			"title": "Python2 & Python3 ctypes 字符串编码类型转换大坑",
+			"link": "2018/05-11",
+			"intro": "别问，问就是大坑",
+			"date": "2018-05-11"
+		}, {
+			"title": "ubuntu开机自动登录（by命令行）",
+			"link": "2018/05-07",
+			"intro": "本地用Virtual Box搭了个ubuntu虚拟机做实验，由于只用到命令行，所以压根就没装GUI，想着到时候直接后台运行然后从本地shell ssh上去。然而Virtual Box这个东西号称支持虚拟机后台（无前端）运行，实则还需要手动输入用户名和密码……",
+			"date": "2018-05-07"
+		}, {
+			"title": "腾讯AlloyTeam面经",
+			"link": "2018/03-21",
+			"intro": "前段时间受了学长的怂恿，去给AlloyTeam投了简历。刚巧赶上复习GRE，没怎么来得及复习……\n疏于准备所付出的代价啊……一首凉凉夜色送给自己",
+			"date": "2018-03-21"
+		}, {
+			"title": "MySQL 5.7 --secure-file-priv 问题",
+			"link": "2018/02-20",
+			"intro": "（这是一篇记录自己愚蠢错误的博客……避免以后再犯）\n前些天需要把一些数据从csv文件导入进MySQL，本来觉得是个几分钟的活计，最后硬是搞了几个小时才收场……", 
+			"date": "2018-02-20"
 		}
 	]
 }
