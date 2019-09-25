@@ -11,9 +11,9 @@ nav:
   - title: 归档 Archive
     links:
       - name: '2019'
-        link: '2019/09-14'
+        link: '2019/catalog'
       - name: '2018'
-        link: '2018/09-13'
+        link: '2018/catalog'
       - name: '2017'
         link: '2017/catalog'
   - title: 小玩具 Playground

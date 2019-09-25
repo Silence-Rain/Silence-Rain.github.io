@@ -1,16 +1,39 @@
 {
-	"content": [
-		{
-			"title": "Test Article 1",
+	"content": [{
+			"title": "腾讯云CentOS服务器上配置nginx+python3",
+			"link": "2017/11-27",
+			"intro": "之前写过一篇腾讯云Ubuntu服务器上配置apache+python的博客，实际上由于一些莫名其妙的原因，这个服务器最终被我用成了一个php服务器……\n最近估计是被搞事的盯上了，服务器疯狂被ddos，以至于后台直接限制了访问……重装系统以后想着一不做二不休，正好借此机会改一下服务器的架构，抛弃了apache+php，彻底转投nginx+python3。正巧小猴后端最近也想重构，看上了nginx+tornado非阻塞调用方式对高并发量的优秀表现，所以也顺手配了tornado做一些小测试",
+			"date": "2017-11-27"
+		}, {
+			"title": "JS异步处理工作机制(setTimeout, setInterval)",
+			"link": "2017/09-28",
+			"intro": "经常谈到异步，但是发现自己一直没深入理解setTimeout, setInterval\n从基础的层面来讲，理解JavaScript的定时器是如何工作的是非常重要的。",
+			"date": "2017-09-28"
+		}, {
+			"title": "【微信小程序】实现属于自己的美美哒弹窗",
 			"link": "2017/09-15",
-			"img": "https://rikumi.github.io/2019/09/18/history-of-my-oneplus-6t-1/",
-			"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+			"intro": "最近项目里需要实现一个带着logo的美美哒弹窗，可是翻遍小程序的文档也只能见到wx.showModal这个丑丑的东西……",
 			"date": "2017-09-15"
 		}, {
-			"title": "Test Article 2",
-			"link": "2017/09-15",
-			"intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-			"date": "2017-09-15"
+			"title": "常用正则表达式汇总",
+			"link": "2017/09-07",
+			"intro": "",
+			"date": "2017-09-07"
+		}, {
+			"title": "腾讯云服务器MySQL开放外部访问权限",
+			"link": "2017/05-20",
+			"intro": "Java作业要求用JDBC连接数据库，想着直接用服务器上的MySQL，省的用Access还要交数据库文件的麻烦。\n万万没想到的是居然花了一下午来搞定数据库连接的问题……心态炸裂……",
+			"date": "2017-05-20"
+		}, {
+			"title": "Git基本的操作",
+			"link": "2017/03-14",
+			"intro": "",
+			"date": "2017-03-14"
+		}, {
+			"title": "腾讯云Ubuntu服务器上搭建Apache2+MySQL+Python",
+			"link": "2017/03-07",
+			"intro": "去年底闲来无事搞到了腾讯云的学生优惠，想着搞个服务器玩玩，花了不少时间搭建环境\n在此简单记录一下以便不时之需", 
+			"date": "2017-03-07"
 		}
 	]
 }

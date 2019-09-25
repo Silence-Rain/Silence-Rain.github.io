@@ -198,6 +198,7 @@ stylr(`
 
       .list
         cursor pointer
+        white-space pre-line
     /* .item-catalog
        .list
          display flex
