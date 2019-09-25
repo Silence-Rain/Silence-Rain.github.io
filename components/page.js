@@ -6,18 +6,19 @@ marked.setOptions({
 Vue.component('page', {
   template: `
     <div class='page'>
-      <audio class="player" controls="controls" loop autoplay>
-        <source src="data/qilixiang.mp3" type="audio/mp3">
+      <audio class='player' controls='controls' loop autoplay>
+        <source src='data/qilixiang.mp3' type='audio/mp3'>
       </audio>
       <div class='item' :class='"item-" + item.type' v-if='page' v-for='item in page'>
         <div v-if='item.type === "markdown"' v-html='item.content'></div>
-        <div v-if='item.type === "catalog"' v-for='article in item.content' @click='navigate(article.link)'>
+        <div class='list' v-if='item.type === "catalog"' v-for='article in item.content' @click='navigate(article.link)'>
           <div>
             <h2>{{ article.title }}</h2>
             <p>{{ article.intro }}</p>
             <p>{{ article.date }}</p>
           </div>
-          <div v-if='article.img'><img src='article.img'></div>
+          <!--<div class='img' v-if='article.img'><img :src='article.img'></div>-->
+          <hr/>
         </div>
       </div>
       <div class='item end'>
@@ -121,6 +122,9 @@ stylr(`
       h1 code, h2 code, h3 code, h4 code, h5 code, h6 code
         font-family inherit
 
+      hr
+        border 2px solid #c5c9cc
+
       ul
         padding-left 1.5em
 
@@ -191,6 +195,13 @@ stylr(`
       table tr
         border-top 1px solid var(--divider-color)
         border-collapse collapse
+
+      .list
+        cursor pointer
+    /* .item-catalog
+       .list
+         display flex
+         flex-direction row*/
 
     .end
       padding 5px 10px
