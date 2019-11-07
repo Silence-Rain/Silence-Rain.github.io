@@ -2,14 +2,12 @@
 
 # 你好 | Welcome
 
-##### Q: What will happen when you finish all your homework?
+##### Q: What's the meaning of life?
 
-##### A: You will receive the notification of new homework
+##### A: `^(?=(?!(.)\1)([^\DO:105-93+30])(?-1)(?<!\d(?<=4))).[^\WHY?]$`
 
 
-很长时间没有动手写过东西啦，面对屏幕发呆半天都不知道该从哪里下笔
-
-果然代码写多了会变傻55555
+我胡汉三马上要回来了！！！
 
 
 > 雨下整夜 我的爱溢出就像雨水
