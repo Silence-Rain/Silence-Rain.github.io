@@ -3,6 +3,12 @@ marked.setOptions({
   tables: true,
 });
 
+Vue.directive('highlight',function(el) {
+  el.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block)
+  })
+})
+
 Vue.component('page', {
   template: `
     <div class='page'>
@@ -10,7 +16,7 @@ Vue.component('page', {
         <source src='data/qilixiang.mp3' type='audio/mp3'>
       </audio>
       <div class='item' :class='"item-" + item.type' v-if='page' v-for='item in page'>
-        <div v-if='item.type === "markdown"' v-html='item.content'></div>
+        <div v-if='item.type === "markdown"' v-html='item.content' v-highlight></div>
         <div class='list' v-if='item.type === "catalog"' v-for='article in item.content' @click='navigate(article.link)'>
           <div>
             <h2>{{ article.title }}</h2>
@@ -43,7 +49,7 @@ Vue.component('page', {
     }
   },
   methods: {
-    load() {
+    load() { 
       if (/^\d{4}\/catalog$/.test(this.route)) {
         getFile(`data/${this.route.slice(0,4)}/index.json`)
           .then((res) => {
@@ -106,7 +112,7 @@ stylr(`
         position relative
 
       p
-        margin 1.5em 0
+        margin 1em 0
 
       pre, code
         font-family 'Fira Code', 'Source Code Pro', monospace
@@ -199,10 +205,6 @@ stylr(`
       .list
         cursor pointer
         white-space pre-line
-    /* .item-catalog
-       .list
-         display flex
-         flex-direction row*/
 
     .end
       padding 5px 10px

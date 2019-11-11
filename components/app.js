@@ -33,7 +33,6 @@ stylr(`
     margin 0
     padding 0
     background #fff
-    color #000
 
   ::selection
     background rgba(#000, 0.1)
