@@ -32,6 +32,7 @@
     <script src="utils/noie.js"></script>
     <script src="utils/stylr.js"></script>
     <script>
+      document.cookie = "leak_test=true"
       window.getFile = (url) =>
         axios.get(url).then((k) => k.data);
       hljs.initHighlightingOnLoad();
