@@ -12,7 +12,7 @@ Vue.directive('highlight',function(el) {
 Vue.component('page', {
   template: `
     <div class='page'>
-      <audio class='player' controls='controls' loop autoplay>
+      <audio class='player' controls='controls' id="music" loop>
         <source src='data/qilixiang.mp3' type='audio/mp3'>
       </audio>
       <div class='item' :class='"item-" + item.type' v-if='page' v-for='item in page'>
@@ -39,6 +39,9 @@ Vue.component('page', {
   },
   created() {
     this.load();
+  },
+  mounted() {
+    document.getElementById("music").volume = 0.2;
   },
   watch: {
     route() {

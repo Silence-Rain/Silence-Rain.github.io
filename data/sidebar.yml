@@ -1,7 +1,7 @@
 title: 'Silence心雨'
 intro: Harbor of
 nick: Silence
-sign: 来喝完这杯，还有三杯
+sign: 熬夜是慢性死亡，早起是直接去世
 
 nav:
   - title: 首页 Index
@@ -10,6 +10,8 @@ nav:
         link: ''
   - title: 归档 Archive
     links:
+      - name: '2020'
+        link: '2020/catalog'
       - name: '2019'
         link: '2019/catalog'
       - name: '2018'
