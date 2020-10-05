@@ -4,6 +4,16 @@
 - Love to explore all kind of **new things**, resulting in a vast range of hobbies but not many specialized areas 😢
 - **Socializing** is half of my life, this COVID quarantine is killing me now...
 
+### When enjoying the spare time
+
+- **Basketball** Never Stops, big fan of Kobe Bryant (R.I.P Kobe 😭)
+- All kinds of "fast" sport: **skiing**, **skydiving**, **kart racing**, ... 
+- Great fan of **Jay Chou** and **Guns n' Roses**. Love pop, rock 'n' roll, heavy metal and EDM
+- Was a skilled **drummer** (maybe more than 5 yrs ago). A dabbler in guitar
+- Previous platinum Vayne player in **League of Legends**, current platinum player of Pharah, Mercy and Ana in **Overwatch**, great fan of **Call of Duty: Modern Warfare**
+- **Sleeping** is my favorite activity in weekend
+- Love to create some **interesting dishes**, hoping to have my own restaurant and be a great chef after retirement
+
 ### When going to school...
 
 - Currently study in **M.S. in Privacy Engineering @ Carnegie Mellon University**
@@ -30,12 +40,3 @@
   - Independently established authorization middleware using koa upon review of policies, achieving new middleware capability for all MIG services in production
   - Constructed both automatic and manual traffic distribution controllers for internal advertisement configuration platform
 
-### When enjoying the spare time
-
-- **Basketball** Never Stops, big fan of Kobe Bryant (R.I.P Kobe 😭)
-- All kinds of "fast" sport: **skiing**, **skydiving**, **kart racing**, ... 
-- Great fan of **Jay Chou** and **Guns n' Roses**. Love pop, rock 'n' roll, heavy metal and EDM
-- Was a skilled **drummer** (maybe more than 5 yrs ago). A dabbler in guitar
-- Previous platinum Vayne player in **League of Legends**, current platinum player of Pharah, Mercy and Ana in **Overwatch**, great fan of **Call of Duty: Modern Warfare**
-- **Sleeping** is my favorite activity in weekend
-- Love to create some **interesting dishes**, hoping to have my own restaurant and be a great chef after retirement
